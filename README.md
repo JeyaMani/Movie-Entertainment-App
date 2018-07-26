@@ -1,14 +1,18 @@
 Movie-Entertainment-App
+
 This is an example of how to connect the Eros Now API, which allows you to build apps that stream Bollywood content to the user. This app provides user with plenty of movie choices and they can be download and watch anywhere anytime.
 
 Getting Started
+
 You can use any code editor for this project. You will be having a HTML file and a JavaScript file.
 
 Prerequisites
+
 You need to Install npm for creating oath signature.
 You also need sha1 to encrypt and decrypt the password.
 
 Installing
+
 Install with npm:
 npm install oauth-signature
 
@@ -18,6 +22,7 @@ Add a <script> to your index.html:
 <script src="/bower_components/oauth-signature/dist/oauth-signature.js"></script>
 
 Usage
+
 To generate the OAuth signature call the following method:
 oauthSignature.generate(httpMethod, url, parameters, consumerSecret, tokenSecret, options)
 * tokenSecret is optional
@@ -28,6 +33,7 @@ var options = {
 }
 
 Example
+
 The following is an example on how to generate the signature for the reference sample as defined in
 * http://oauth.net/core/1.0a/#rfc.section.A.5.1
 * http://oauth.net/core/1.0a/#rfc.section.A.5.2
@@ -54,4 +60,5 @@ The encodedSignature variable will contain the RFC 3986 encoded, BASE64 encoded 
 The signature variable will contain the BASE64 HMAC-SHA1 hash, without encoding: tR3+Ty81lMeYAr/Fid0kMTYa/WM=.
 
 Running the tests
+
 While you run this program, you need to give the valid user id and password to login and access the users profile and continue watching.
