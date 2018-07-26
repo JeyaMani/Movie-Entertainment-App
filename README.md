@@ -38,8 +38,8 @@ var options = {
 ### Example
 
 The following is an example on how to generate the signature for the reference sample as defined in
-* http://oauth.net/core/1.0a/#rfc.section.A.5.1
-* http://oauth.net/core/1.0a/#rfc.section.A.5.2
+* [http://oauth.net/core/1.0a/#rfc.section.A.5.1]
+* [http://oauth.net/core/1.0a/#rfc.section.A.5.2]
 ```javascript
 var httpMethod = 'GET',
     url = 'http://photos.example.net/photos',
