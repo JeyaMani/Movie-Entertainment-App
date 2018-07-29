@@ -1,8 +1,8 @@
 # Movie Entertainment App
-This is an example of how to connect the __Eros Now API__, which allows you to build apps that stream Bollywood content to the user. This app provides user with plenty of movie choices and they can be download and watch anywhere anytime.
+This is an example of how to connect to the __Eros Now API__, which allows you to build apps that stream Bollywood content to the user. This app provides user with plenty of movie choices they can watch anywhere anytime.
 
 ## Getting Started
-You can use any code editor for this project. You will be having a HTML file and a JavaScript file.
+You can use any code editor for this project. The code consists of an HTML file and a JavaScript file.
 
 ### Prerequisites
 You need to Install npm for creating oath signature. You also need sha1 to encrypt and decrypt the password.
@@ -12,13 +12,9 @@ You need to Install npm for creating oath signature. You also need sha1 to encry
 ```sh
 npm install oauth-signature
 ```
-* Install with bower:
-```sh
-bower install oauth-signature
-```
 * Then, add a <script> to your index.html:
 ```html
-<script src="/bower_components/oauth-signature/dist/oauth-signature.js"></script>
+<script src="/oauth-signature/dist/oauth-signature.js"></script>
 ```
 ### Usage
 
@@ -38,8 +34,8 @@ var options = {
 ### Example
 
 The following is an example on how to generate the signature for the reference sample as defined in
-* [http://oauth.net/core/1.0a/#rfc.section.A.5.1]
-* [http://oauth.net/core/1.0a/#rfc.section.A.5.2]
+* http://oauth.net/core/1.0a/#rfc.section.A.5.1
+* http://oauth.net/core/1.0a/#rfc.section.A.5.2
 ```javascript
 var httpMethod = 'GET',
     url = 'http://photos.example.net/photos',
